@@ -1,0 +1,18 @@
+{C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/tb/Binary_to_BCD_7_Segment_Display_Tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/tb/Binary_to_BCD_7_Segment_Display_Tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Binary_to_BCD_7_Segment_Display_Tb
+-- Compiling architecture rtl of Binary_to_BCD_7_Segment_Display_Tb
+-- Loading entity Binary_to_BCD_7_Segment_Display
+
+} {} {}} {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/src/Binary_to_BCD_7_Segment_Display.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/src/Binary_to_BCD_7_Segment_Display.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Binary_to_BCD_7_Segment_Display
+-- Compiling architecture rtl of Binary_to_BCD_7_Segment_Display
+
+} {} {}}

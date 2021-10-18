@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/AlteraPrj/VHDL Tutorial
+T_opt
+!s110 1634583249
+VMMdBRJ3FVzhOMfb;oj^g61
+04 34 3 work binary_to_bcd_7_segment_display_tb rtl 1
+=1-485ab69cdecf-616dc2d0-210-63e4
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Ebinary2bcd_tb
+w1634583144
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z2 dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/sim
+Z3 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/tb/Binary_to_BCD_7_Segment_Display_Tb.vhd
+Z4 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/tb/Binary_to_BCD_7_Segment_Display_Tb.vhd
+l0
+L4
+VWK=7K1KD4nOT[lTeMJeiY2
+!s100 ^JA2m2`EbICnAdRRXlnn]0
+Z5 OL;C;10.7;67
+32
+!s110 1634583154
+!i10b 1
+!s108 1634583154.000000
+Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/tb/Binary_to_BCD_7_Segment_Display_Tb.vhd|
+Z7 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/tb/Binary_to_BCD_7_Segment_Display_Tb.vhd|
+!i113 0
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Ebinary_to_bcd_7_segment_display
+Z10 w1634583017
+R0
+R1
+R2
+Z11 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/src/Binary_to_BCD_7_Segment_Display.vhd
+Z12 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/src/Binary_to_BCD_7_Segment_Display.vhd
+l0
+L4
+VcZl?8HRNN5ALEGKL7KK?i0
+!s100 =k4JdTJik9if_c[gMN?z`0
+R5
+32
+Z13 !s110 1634583091
+!i10b 1
+Z14 !s108 1634583091.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/src/Binary_to_BCD_7_Segment_Display.vhd|
+Z16 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj1/src/Binary_to_BCD_7_Segment_Display.vhd|
+!i113 0
+R8
+R9
+Artl
+R0
+R1
+Z17 DEx4 work 31 binary_to_bcd_7_segment_display 0 22 cZl?8HRNN5ALEGKL7KK?i0
+l21
+L16
+V9Vhz1MB_Fhm5[jW1zJQFo1
+!s100 f43jhY@z5ZkEmHLIn3Bc<2
+R5
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R8
+R9
+Ebinary_to_bcd_7_segment_display_tb
+Z18 w1634583203
+R0
+R1
+R2
+R3
+R4
+l0
+L4
+VAXILXgJNh97X;W9Llz@SW3
+!s100 P?2T7CR[h[F1gD2Jbjm:i3
+R5
+32
+!s110 1634583227
+!i10b 1
+Z19 !s108 1634583227.000000
+R6
+R7
+!i113 0
+R8
+R9
+Artl
+R17
+R0
+R1
+DEx4 work 34 binary_to_bcd_7_segment_display_tb 0 22 AXILXgJNh97X;W9Llz@SW3
+l13
+L7
+VZX9bYjKVMJ_?BA1dhmm]43
+!s100 ddoneMIQzi1`lbZATj>EQ1
+R5
+32
+!s110 1634583228
+!i10b 1
+R19
+R6
+R7
+!i113 0
+R8
+R9
