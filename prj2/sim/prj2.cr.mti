@@ -1,0 +1,20 @@
+{C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj2/tb/Four_bit_Binary_to_Two_bit_Decimal_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj2/tb/Four_bit_Binary_to_Two_bit_Decimal_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Four_bit_Binary_to_Two_bit_Decimal_tb
+-- Compiling architecture rtl of Four_bit_Binary_to_Two_bit_Decimal_tb
+-- Loading package NUMERIC_STD
+-- Loading entity Four_bit_Binary_to_Two_bit_Decimal
+
+} {} {}} {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj2/src/Four_bit_Binary_to_Two_bit_Decimal.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj2/src/Four_bit_Binary_to_Two_bit_Decimal.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Four_bit_Binary_to_Two_bit_Decimal
+-- Compiling architecture rtl of Four_bit_Binary_to_Two_bit_Decimal
+
+} {} {}}

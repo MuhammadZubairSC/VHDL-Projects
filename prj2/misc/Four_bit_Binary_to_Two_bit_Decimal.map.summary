@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Oct 19 13:31:23 2021
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : Four_bit_Binary_to_Two_bit_Decimal
+Top-level Entity Name : DE10_LITE_Default
+Family : MAX 10
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 185
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

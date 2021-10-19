@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/sim
+T_opt
+!s110 1634635918
+VNd8YOX[bdfOTNRT@l2Hz70
+04 51 3 work four_bit_full_adder_7_segment_display_structural_tb sim 1
+=1-485ab69cdecf-616e908e-329-5b50
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Ec4m1p3
+Z0 w1634635841
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z3 dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/sim
+Z4 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/src/Four_bit_Full_Adder_7_Segment_Display_Structural.vhd
+Z5 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/src/Four_bit_Full_Adder_7_Segment_Display_Structural.vhd
+l0
+L199
+V>NB;dVh;eXh_B01hom0H^1
+!s100 fACaOOd_eakD_X36Ygde21
+Z6 OL;C;10.7;67
+32
+Z7 !s110 1634635893
+!i10b 1
+Z8 !s108 1634635893.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/src/Four_bit_Full_Adder_7_Segment_Display_Structural.vhd|
+Z10 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/src/Four_bit_Full_Adder_7_Segment_Display_Structural.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Ac4m1p3_rtl
+R1
+R2
+DEx4 work 6 c4m1p3 0 22 >NB;dVh;eXh_B01hom0H^1
+l220
+L209
+V7UEEbH6`cB1Vj9D@Yk59c2
+!s100 6lLfNjJ^1A?Q_McMKP[3z1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efour_bit_full_adder_7_segment_display_structural
+R0
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+R3
+R4
+R5
+l0
+L5
+VjYETh^f=Q:27C0Fm8il<B0
+!s100 Th0EaK72aI8RbY9h2G1@N2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Artl
+R13
+R1
+R2
+Z14 DEx4 work 48 four_bit_full_adder_7_segment_display_structural 0 22 jYETh^f=Q:27C0Fm8il<B0
+l43
+L16
+V[5L9gFRTW@n`6S`46cDIV1
+!s100 7g1zXUTKTZOjhiD[eaI1T1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efour_bit_full_adder_7_segment_display_structural_tb
+Z15 w1634635877
+R13
+R1
+R2
+R3
+Z16 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/tb/Four_bit_Full_Adder_7_Segment_Display_Structural_tb.vhd
+Z17 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/tb/Four_bit_Full_Adder_7_Segment_Display_Structural_tb.vhd
+l0
+L5
+VS>>:]`6ZP1IJYbGoMGPO80
+!s100 a7S15MU?I6cHVkEkXWB7`1
+R6
+32
+Z18 !s110 1634635900
+!i10b 1
+Z19 !s108 1634635900.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/tb/Four_bit_Full_Adder_7_Segment_Display_Structural_tb.vhd|
+Z21 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/tb/Four_bit_Full_Adder_7_Segment_Display_Structural_tb.vhd|
+!i113 0
+R11
+R12
+Asim
+R14
+R13
+R1
+R2
+DEx4 work 51 four_bit_full_adder_7_segment_display_structural_tb 0 22 S>>:]`6ZP1IJYbGoMGPO80
+l17
+L8
+VIHJ47_K_R3H8>Jea4CoVI3
+!s100 4KMWE2^7=MBkbLlmV3Zbl0
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R11
+R12
+Efulladder
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L232
+VaWViTL91Z_n0m[LlQfY@]2
+!s100 [5U:0D_8TN;ae9ZPi^g?k1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Afull_adder_rtl
+R1
+R2
+DEx4 work 9 fulladder 0 22 aWViTL91Z_n0m[LlQfY@]2
+l240
+L239
+VO6ZM?>824mnb`=5_j1KSZ2
+!s100 0>?LflEn]98b3z47U<m]B2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

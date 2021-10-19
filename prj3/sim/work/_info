@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj2/sim
+T_opt
+!s110 1634634632
+VES]Bn?0l8CkQ9haf?ec>g2
+04 34 3 work four_bit_full_adder_led_display_tb sim 1
+=1-485ab69cdecf-616e8b88-a6-6068
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Efour_bit_full_adder_led_display
+Z0 w1634634143
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z3 dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/sim
+Z4 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/src/Four_bit_Full_Adder_LED_Display.vhd
+Z5 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/src/Four_bit_Full_Adder_LED_Display.vhd
+l0
+L4
+V[FOEbK09EIGNG0`<Y[_m>0
+!s100 S]o`77;QG76hFeTH5>Ra23
+Z6 OL;C;10.7;67
+32
+Z7 !s110 1634634522
+!i10b 1
+Z8 !s108 1634634522.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/src/Four_bit_Full_Adder_LED_Display.vhd|
+Z10 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/src/Four_bit_Full_Adder_LED_Display.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+Z13 DEx4 work 31 four_bit_full_adder_led_display 0 22 [FOEbK09EIGNG0`<Y[_m>0
+l30
+L13
+VRXi8YlFQm<?2ZLkLIcmDg0
+!s100 iL1PRH@ZhXmVE4N5R>dB80
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efour_bit_full_adder_led_display_tb
+Z14 w1634634580
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+R3
+Z16 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/tb/Four_bit_Full_Adder_LED_Display_tb.vhd
+Z17 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/tb/Four_bit_Full_Adder_LED_Display_tb.vhd
+l0
+L5
+VR_4E^MZTc2bJ`JWcQ6HY72
+!s100 4bC]KkUO_IZ7S>JV?QVU;2
+R6
+32
+Z18 !s110 1634634585
+!i10b 1
+Z19 !s108 1634634585.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/tb/Four_bit_Full_Adder_LED_Display_tb.vhd|
+Z21 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj3/tb/Four_bit_Full_Adder_LED_Display_tb.vhd|
+!i113 0
+R11
+R12
+Asim
+R13
+R15
+R1
+R2
+DEx4 work 34 four_bit_full_adder_led_display_tb 0 22 R_4E^MZTc2bJ`JWcQ6HY72
+l13
+L8
+VL=53ak=H083M^MiX0SAa@2
+!s100 H_h=RkTd[Q:Lj]3YFRTJE3
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R11
+R12
+Efulladder
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L49
+V^S7@TDOz^Rn]dezJG0LOD2
+!s100 ]RJ`b1C;XSzWSlmHdV`g=1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Afull_adder_rtl
+R1
+R2
+DEx4 work 9 fulladder 0 22 ^S7@TDOz^Rn]dezJG0LOD2
+l57
+L56
+V?ozc]VZgZij`Aj7fm94EQ0
+!s100 7dR?]3DKmFCfcAEX;SSB03
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

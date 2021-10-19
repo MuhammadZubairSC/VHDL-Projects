@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj4/sim
+T_opt
+!s110 1634637097
+VOh=L8HnZX?C[Q0nNfL>fh1
+04 50 3 work four_bit_ful_adder_7_segment_display_behavioral_tb sim 1
+=1-485ab69cdecf-616e9529-2d-2b38
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Efour_bit_ful_adder_7_segment_display_behavioral
+Z0 w1634636870
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 dC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/sim
+Z5 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/src/Four_bit_Ful_Adder_7_Segment_Display_Behavioral.vhd
+Z6 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/src/Four_bit_Ful_Adder_7_Segment_Display_Behavioral.vhd
+l0
+L5
+VNI5KoZ8HN3ZZK]2>W]6dg2
+!s100 KC`AiL?m:kGkTlTTJG];k3
+Z7 OL;C;10.7;67
+32
+Z8 !s110 1634637082
+!i10b 1
+Z9 !s108 1634637082.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/src/Four_bit_Ful_Adder_7_Segment_Display_Behavioral.vhd|
+Z11 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/src/Four_bit_Ful_Adder_7_Segment_Display_Behavioral.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 47 four_bit_ful_adder_7_segment_display_behavioral 0 22 NI5KoZ8HN3ZZK]2>W]6dg2
+l35
+L20
+V@0]5oj3`j3@Hn=?Gk7z=21
+!s100 04]dokdL?OQJdEnjRPiCf2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Efour_bit_ful_adder_7_segment_display_behavioral_tb
+Z15 w1634637074
+R1
+R2
+R3
+R4
+Z16 8C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/tb/Four_bit_Ful_Adder_7_Segment_Display_Behavioral_tb.vhd
+Z17 FC:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/tb/Four_bit_Ful_Adder_7_Segment_Display_Behavioral_tb.vhd
+l0
+L5
+VifU`=i<2gD:_[fAO28[]R2
+!s100 cMb_^EE[3NAhAA[MY1ZE^0
+R7
+32
+Z18 !s110 1634637077
+!i10b 1
+Z19 !s108 1634637077.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/tb/Four_bit_Ful_Adder_7_Segment_Display_Behavioral_tb.vhd|
+Z21 !s107 C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/New folder/prj5/tb/Four_bit_Ful_Adder_7_Segment_Display_Behavioral_tb.vhd|
+!i113 0
+R12
+R13
+Asim
+R14
+R1
+R2
+R3
+DEx4 work 50 four_bit_ful_adder_7_segment_display_behavioral_tb 0 22 ifU`=i<2gD:_[fAO28[]R2
+l17
+L8
+VVSc0SVZZJUNE2iGTNWTcj3
+!s100 nbOKaWGMe5T_?P;f2mToJ1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R12
+R13

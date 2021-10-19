@@ -1,0 +1,92 @@
+|DE10_LITE_Default
+LEDR[0] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[1] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[2] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[3] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[4] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[5] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[6] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[7] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[8] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+LEDR[9] <= Four_bit_Full_Adder_LED_Display:u0.LEDR
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+
+
+|DE10_LITE_Default|Four_bit_Full_Adder_LED_Display:u0
+SW[0] => fullAdder:F0.b
+SW[1] => fullAdder:F1.b
+SW[2] => fullAdder:F2.b
+SW[3] => fullAdder:F3.b
+SW[4] => fullAdder:F0.a
+SW[5] => fullAdder:F1.a
+SW[6] => fullAdder:F2.a
+SW[7] => fullAdder:F3.a
+SW[8] => fullAdder:F0.cin
+LEDR[0] <= fullAdder:F0.sout
+LEDR[1] <= fullAdder:F1.sout
+LEDR[2] <= fullAdder:F2.sout
+LEDR[3] <= fullAdder:F3.sout
+LEDR[4] <= fullAdder:F3.cout
+
+
+|DE10_LITE_Default|Four_bit_Full_Adder_LED_Display:u0|fullAdder:F0
+a => sout.IN0
+a => cout.IN0
+a => cout.IN0
+b => sout.IN1
+b => cout.IN1
+b => cout.IN1
+cin => sout.IN1
+cin => cout.IN1
+sout <= sout.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE10_LITE_Default|Four_bit_Full_Adder_LED_Display:u0|fullAdder:F1
+a => sout.IN0
+a => cout.IN0
+a => cout.IN0
+b => sout.IN1
+b => cout.IN1
+b => cout.IN1
+cin => sout.IN1
+cin => cout.IN1
+sout <= sout.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE10_LITE_Default|Four_bit_Full_Adder_LED_Display:u0|fullAdder:F2
+a => sout.IN0
+a => cout.IN0
+a => cout.IN0
+b => sout.IN1
+b => cout.IN1
+b => cout.IN1
+cin => sout.IN1
+cin => cout.IN1
+sout <= sout.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE10_LITE_Default|Four_bit_Full_Adder_LED_Display:u0|fullAdder:F3
+a => sout.IN0
+a => cout.IN0
+a => cout.IN0
+b => sout.IN1
+b => cout.IN1
+b => cout.IN1
+cin => sout.IN1
+cin => cout.IN1
+sout <= sout.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
