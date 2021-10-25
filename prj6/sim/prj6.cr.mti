@@ -1,0 +1,20 @@
+{C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/VHDL-Projects/prj6/TrafficLightSignal.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/VHDL-Projects/prj6/TrafficLightSignal.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TrafficLightSignal
+-- Compiling architecture rtl of TrafficLightSignal
+
+} {} {}} {C:/Users/Muhammad Zubair/Desktop/Creative/a/Repos Prev/VHDL-Projects/prj6/TrafficLightSignal_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\Muhammad Zubair\Desktop\Creative\a\Repos Prev\VHDL-Projects\prj6\TrafficLightSignal_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TrafficLightSignal_tb
+-- Compiling architecture sim of TrafficLightSignal_tb
+-- Loading entity TrafficLightSignal
+
+} {} {}}

@@ -1,0 +1,152 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity TrafficLightSignal is
+generic (ClockFreq : integer);
+port(
+	clk			: in std_logic;
+	nrst		: in std_logic; -- Neative reset means On at 0 zero
+	NorthRed	: out std_logic;
+	NorthYellow	: out std_logic;
+	NorthGreen	: out std_logic;
+	WestRed		: out std_logic;
+	WestYellow	: out std_logic;
+	WestGreen	: out std_logic
+	);  
+	
+end entity;
+	
+
+architecture rtl of TrafficLightSignal is
+
+	-- Function for claculating the number of clock cycles in a min/sec
+	function CounterVal (minute 	: integer :=0;
+						 second 	: integer :=0) return integer is
+		variable TotalClockCycle 	: integer;
+	begin
+		TotalClockCycle := second + 60 * minute;
+		return TotalClockCycle * ClockFreq -1;
+	end function;
+		
+
+	-- Enumerate type declaration and state signal declaration
+	type t_states is (NorthNext, StartNorth, North, StopNorth, WestNext, StartWest, 
+					 West, StopWest);	
+	signal State			: t_states;
+	
+	-- Counter for counting clock period; 1 min max
+	signal counter_sig		: integer range 0 to ClockFreq * 60;
+
+begin
+
+	-- Creating the timer at the rising edge of the clock
+	process(clk) is 
+	begin
+		if rising_edge(clk) then
+			if nrst = '0' then
+			
+				counter_sig <= 0;
+				NorthRed	<= '1';
+			    NorthYellow	<= '0';
+			    NorthGreen	<= '0';
+			    WestRed		<= '1';
+		        WestYellow	<= '0';
+		        WestGreen	<= '0';
+		
+				State <= NorthNext;
+			else
+				NorthRed	<= '0';
+			    NorthYellow	<= '0';
+			    NorthGreen	<= '0';
+			    WestRed		<= '0';
+		        WestYellow	<= '0';
+		        WestGreen	<= '0';
+				
+				counter_sig <= counter_sig + 1;
+				
+				case State is 
+					when NorthNext 	=>
+						NorthRed	<= '1';  -- As signal only stores its last defined state
+						WestRed		<= '1';
+						-- If 5 seconds had passed
+						if counter_sig = CounterVal(second => 5) then 
+							counter_sig <= 0;
+							State		<= StartNorth;
+						end if;
+						
+					when StartNorth =>
+						NorthRed	<= '1';
+						NorthYellow	<= '1';
+						WestRed		<= '1';
+						-- If 5 seconds had passed
+						if counter_sig = CounterVal(second => 5) then 
+							counter_sig <= 0;
+							State		<= North;
+						end if;
+						
+					when North 		=>
+						NorthGreen	<= '1';
+						WestRed		<= '1';
+						-- If I minute had passed
+						if counter_sig = CounterVal(minute => 1) then 
+							counter_sig <= 0;
+							State		<= StopNorth;
+						end if;
+						
+					when StopNorth 	=>
+						NorthYellow	<= '1';
+						WestRed		<= '1';
+						-- If 5 seconds had passed
+						if counter_sig =CounterVal(second => 5) then 
+							counter_sig <= 0;
+							State		<= WestNext;
+						end if;
+						
+					when WestNext 	=>
+						WestRed		<= '1';
+						NorthRed	<= '1';
+						-- If 5 seconds had passed
+						if counter_sig = CounterVal(second => 5)then 
+							counter_sig <= 0;
+							State		<= StartWest;
+						end if;
+						
+					when StartWest 	=>
+						WestRed		<= '1';
+						WestYellow	<= '1';
+						NorthRed	<= '1';
+						-- If 5 seconds had passed
+						if counter_sig = CounterVal(second => 5)then 
+							counter_sig <= 0;
+							State		<= West;
+						end if;
+						
+					when West 		=>
+						WestGreen	<= '1';
+						NorthRed	<= '1';
+						-- If 1 minute had passed
+						if counter_sig = CounterVal(minute => 1) then 
+							counter_sig <= 0;
+							State		<= StopWest;
+						end if;
+						
+					when StopWest 	=>
+						WestYellow	<= '1';
+						NorthRed	<= '1';
+						--If 5 seconds had passed
+						if counter_sig = CounterVal(second => 5) then 
+							counter_sig <= 0;
+							State		<= NorthNext;
+						end if;
+						
+				end case;
+				
+			end if;
+			
+		end if;
+	end process;
+
+end architecture;
+ 

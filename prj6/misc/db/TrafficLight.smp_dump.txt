@@ -1,0 +1,11 @@
+
+State Machine - |DE10_LITE_Default|TrafficLightSignal:t0|State
+Name State.StopWest State.West State.StartWest State.WestNext State.StopNorth State.North State.StartNorth State.NorthNext 
+State.NorthNext 0 0 0 0 0 0 0 0 
+State.StartNorth 0 0 0 0 0 0 1 1 
+State.North 0 0 0 0 0 1 0 1 
+State.StopNorth 0 0 0 0 1 0 0 1 
+State.WestNext 0 0 0 1 0 0 0 1 
+State.StartWest 0 0 1 0 0 0 0 1 
+State.West 0 1 0 0 0 0 0 1 
+State.StopWest 1 0 0 0 0 0 0 1 
